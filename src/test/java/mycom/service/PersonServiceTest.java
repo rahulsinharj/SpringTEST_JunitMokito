@@ -22,7 +22,7 @@ class PersonServiceTest {
         this.personService = new PersonService(this.personRepo);
     }
 
-    @Test
+    @Test                   // Testing
     void getAllPerson() {
         personService.getAllPerson();
 
